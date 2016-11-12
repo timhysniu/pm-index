@@ -1,0 +1,15 @@
+{
+  "env": "development",
+  "app": {
+    "port": 3010
+  },
+  "mongoose": {
+    "uri": "mongodb://localhost:27017/boilerplate"
+  },
+  "api": {
+    "version": "1.0.0",
+    "title": "Boilerplate API Documentation"
+  },
+  "modules": ["default", "api"],
+  "models": ["stock"]
+}
